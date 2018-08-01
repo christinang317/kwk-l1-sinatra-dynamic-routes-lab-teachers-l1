@@ -7,6 +7,6 @@ class App < Sinatra::Base
   @name = params[:name]
   @name_reverse = @name.reverse
   "#{@name_reverse}"
-  end 
+  
 
 end
